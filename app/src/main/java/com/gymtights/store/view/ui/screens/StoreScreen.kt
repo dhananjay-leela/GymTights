@@ -10,12 +10,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.gymtights.store.view.ui.ProductsViewModel
+import com.gymtights.store.view.ProductsViewModel
 import com.gymtights.store.view.ui.components.ProductsGrid
 import com.gymtights.store.view.ui.components.ProductScreenHeader
-import com.gymtights.store.view.ui.theme.GymTightsTheme
 import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember

@@ -7,7 +7,6 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.gymtights.store.view.ui.ProductsViewModel
 import com.gymtights.store.view.ui.screens.ProductInfoScreen
 import com.gymtights.store.view.ui.screens.ProductsListScreen
 import com.gymtights.store.view.ui.theme.GymTightsTheme
@@ -21,16 +20,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             GymTightsTheme {
-                // A surface container using the 'background' color from the theme
-//                Surface(
-//                    modifier = Modifier.fillMaxSize(),
-//                    color = MaterialTheme.colorScheme.background
-//                ) {
-//                    Greeting("Android")
-////                    Toast.makeText(LocalContext.current, viewModel.errorMessage.value, Toast.LENGTH_SHORT).show()
-//                }
                 NavGraph(viewModel)
-
             }
         }
     }

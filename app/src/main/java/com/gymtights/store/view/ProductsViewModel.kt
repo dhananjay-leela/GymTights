@@ -1,4 +1,4 @@
-package com.gymtights.store.view.ui
+package com.gymtights.store.view
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

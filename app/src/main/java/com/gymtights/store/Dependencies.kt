@@ -5,9 +5,8 @@ import com.google.gson.FieldNamingPolicy
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.gymtights.store.data.repository.ProductsApiService
-import com.gymtights.store.data.repository.ProductsRepository
 import com.gymtights.store.data.repository.ProductsRepositoryImpl
-import com.gymtights.store.view.ui.ProductsViewModel
+import com.gymtights.store.view.ProductsViewModel
 import kotlinx.coroutines.Dispatchers
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
